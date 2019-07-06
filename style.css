@@ -9,4 +9,48 @@
 .button {
     margin-left: auto;
     display: inline;
+    background-color: #f8f8f8;
+    padding: 16px
+}
+.button:hover {
+    background-color: white;
+    border: 1px solid darkslategray;
+    cursor: pointer;
+}
+.text{
+    border-radius: 10px;
+    width: 20%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px; 
+    border: 1px solid gray;
+}
+.btns {
+    text-align: center;
+}
+.nav li {
+    display: inline;
+    margin: 5px;
+}
+.nav li:hover {
+    text-decoration: underline;
+    cursor: grab;
+}
+.nav {
+    text-align: right;
+}
+.foot li {
+    display: inline;
+    margin: 5px;
+}
+.foot li:hover {
+    text-decoration: underline;
+    cursor: grab;
+}
+footer {
+    color: dimgrey;
+    background-color: gainsboro;
+    position: absolute;
+    bottom: 0;
+    width: 100%
 }
